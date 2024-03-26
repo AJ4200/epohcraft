@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "extra_recipes",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Slimechunk"
+      },
+      {
+        "value": "CUSTOM:Slimechunk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Slimechunk"
+      },
+      {
+        "value": "CUSTOM:Slimechunk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SLIME_BALL"
+    },
+    "name": "custome_slime",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "epohcraft:block/top",
+    "up": "epohcraft:block/top",
+    "north": "epohcraft:block/slimertext",
+    "east": "epohcraft:block/sides",
+    "south": "epohcraft:block/sides",
+    "west": "epohcraft:block/sides",
+    "particle": "epohcraft:block/top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,105 @@
+{
+  "_fv": 47,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Exchanger"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "Blocks.NETHERRACK"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "Items.NETHERITE_SCRAP"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.DIAMOND_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_UPGRADE"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.NETHERITE_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Blocks.CHORUS_FLOWER"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHER_STAR"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.DIAMOND_BLOCK"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "Blocks.CHORUS_FLOWER"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.NETHERITE_UPGRADE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.END_STONE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

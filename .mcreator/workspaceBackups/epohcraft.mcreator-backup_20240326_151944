@@ -1,0 +1,334 @@
+{
+  "mod_elements": [
+    {
+      "name": "FleshToLeather",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_to_leather",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/flesh_to_leather.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftableTears",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftable_tears",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/craftable_tears.json"
+        ]
+      }
+    },
+    {
+      "name": "Exchanger",
+      "type": "villagerprofession",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exchanger",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Netheritescrap",
+      "type": "villagertrade",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritescrap",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Soulsand",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/soulsand.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackdye",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackdye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/blackdye.json"
+        ]
+      }
+    },
+    {
+      "name": "Slimechunk",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimechunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epohcraft/models/item/slimechunk.json",
+          "src/main/java/net/mcreator/epohcraft/item/SlimechunkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CustomeSlime",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custome_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/custome_slime.json"
+        ]
+      }
+    },
+    {
+      "name": "Convertermenu",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "convertermenu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/epohcraft/client/gui/ConvertermenuScreen.java",
+          "src/main/java/net/mcreator/epohcraft/network/ConvertermenuSlotMessage.java",
+          "src/main/java/net/mcreator/epohcraft/world/inventory/ConvertermenuMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Slimer",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epohcraft/blockstates/slimer.json",
+          "src/main/java/net/mcreator/epohcraft/block/entity/SlimerBlockEntity.java",
+          "src/main/java/net/mcreator/epohcraft/block/SlimerBlock.java",
+          "src/main/resources/assets/epohcraft/models/item/slimer.json",
+          "src/main/resources/assets/epohcraft/models/block/slimer.json"
+        ]
+      }
+    },
+    {
+      "name": "Magmaslimer",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmaslimer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/epohcraft/procedures/MagmaslimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slimerchunker",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimerchunker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/epohcraft/item/SlimerchunkerItem.java",
+          "src/main/resources/assets/epohcraft/models/item/slimerchunker.json"
+        ]
+      }
+    },
+    {
+      "name": "Slimerblock",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/slimerblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Chunkdropper",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunkdropper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/epohcraft/procedures/ChunkdropperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BLAZERODSTICK",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazerodstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/blazerodstick.json"
+        ]
+      }
+    },
+    {
+      "name": "Blazepowder",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazepowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/blazepowder.json"
+        ]
+      }
+    },
+    {
+      "name": "Beet",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/beet.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowfroglight",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowfroglight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/yellowfroglight.json"
+        ]
+      }
+    },
+    {
+      "name": "Purplefroglight",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplefroglight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/purplefroglight.json"
+        ]
+      }
+    },
+    {
+      "name": "Greenfroglight",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenfroglight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epohcraft/recipes/greenfroglight.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.minecraft.villager.epohcraft.exchanger": "Exchanger",
+      "gui.epohcraft.convertermenu.button_slimee": "Slimee",
+      "item.epohcraft.slimerchunker": "Slimerchunker",
+      "gui.epohcraft.convertermenu.label_slime_machine": "Slime Machine",
+      "item.epohcraft.slimechunk": "Slimechunk",
+      "block.epohcraft.slimer": "Slimer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "epohcraft",
+    "modName": "Epohcraft",
+    "version": "1.0.0",
+    "author": "abelj, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.epohcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

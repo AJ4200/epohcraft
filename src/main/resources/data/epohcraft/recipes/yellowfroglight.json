@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:yellow_concrete_powder"
+    },
+    "3": {
+      "item": "minecraft:yellow_concrete_powder"
+    },
+    "4": {
+      "item": "minecraft:tadpole_bucket"
+    },
+    "5": {
+      "item": "minecraft:yellow_concrete_powder"
+    },
+    "7": {
+      "item": "minecraft:yellow_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:ochre_froglight",
+    "count": 64
+  }
+}

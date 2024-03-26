@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Exchanger",
+    "pointOfInterest": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "actionSound": {
+      "value": "entity.villager.yes"
+    },
+    "hat": "None",
+    "professionTextureFile": "2023_01_31_odd-merchant-21292763.png",
+    "zombifiedProfessionTextureFile": "2023_07_21_--zombification---21816296.png"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_recipes",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "epohcraft:slimerchunker"
+    },
+    "3": {
+      "item": "epohcraft:slimerchunker"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "epohcraft:slimerchunker"
+    },
+    "7": {
+      "item": "epohcraft:slimerchunker"
+    }
+  },
+  "result": {
+    "item": "epohcraft:slimer",
+    "count": 1
+  }
+}

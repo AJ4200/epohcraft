@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_recipes",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:blaze_powder"
+    },
+    "6": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:blaze_rod",
+    "count": 1
+  }
+}
